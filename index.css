@@ -1,0 +1,79 @@
+body{
+    background-image: url("./image/galaxy.gif");
+    width: auto;
+    height: 500px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    font-size: 51px;
+    color: #fff;
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+input, select{
+    margin-right: 10px;
+    width: 210px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+select{
+    width: 160px;
+    height: 35px;
+}
+button{
+    width: 130px;
+    height: 34px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: gray;
+    font-size: 15px;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+}
+
+#flex_container{
+    /* width: 70%; */
+    width: 53%;
+    height: auto;
+    background: #202020a8;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+
+}
+#flex_item_image{
+    display: flex;
+    justify-content: center;
+   
+}
+
+#flex_item_image img{
+    width: 145%;
+    margin: 20px 0;
+    margin-left: 50%;
+}
+
+#flex_item_decription{
+    background-color: #3d3c3c8a;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #fff;
+    margin-left: 18%;
+    text-align: center;
+    padding-top: 39px;
+    margin: 4% 16%;
+}
